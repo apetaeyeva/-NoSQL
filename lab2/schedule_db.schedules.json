@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6aa7d02d422523e79ed7555a"
+  },
+  "group": "ИВ-241",
+  "dayOfWeek": "Понедельник",
+  "pairNumber": 1,
+  "subject": "Базы данных (MongoDB)",
+  "teacher": "Иванов И.И.",
+  "room": "304-A",
+  "subgroup": 0,
+  "weekType": "все"
+}]
