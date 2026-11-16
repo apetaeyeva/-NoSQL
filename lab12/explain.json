@@ -1,0 +1,14 @@
+{
+  "Без индекса": {
+    "stage": "COLLSCAN",
+    "totalKeysExamined": 0,
+    "totalDocsExamined": 5000,
+    "nReturned": 28
+  },
+  "С индексом": {
+    "stage": "FETCH+IXSCAN",
+    "totalKeysExamined": 28,
+    "totalDocsExamined": 28,
+    "nReturned": 28
+  }
+}

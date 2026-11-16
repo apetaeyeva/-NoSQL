@@ -1,0 +1,28 @@
+{
+  "backend": "local",
+  "version": "python 3.13.18 (local store)",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v470-x86_64-with-glibc2.39",
+  "cpu_count": 2,
+  "seed": 42,
+  "n_docs_requested": 5000,
+  "query": {
+    "departmentId": 10,
+    "semester": 5
+  },
+  "limit": 100,
+  "workers": [
+    1,
+    4,
+    8
+  ],
+  "repeats": 3,
+  "queries_per_run": 2000,
+  "warmup": 40,
+  "n_docs": 5000,
+  "index_size_bytes_without": 0,
+  "index_size_bytes_with": 67184,
+  "insert_ms_no_index": 0.16088099999933547,
+  "insert_ms_with_index": 0.7818769999943243,
+  "index_size_note": "ОЦЕНКА для Python dict, не размер индекса MongoDB"
+}
